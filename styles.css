@@ -1,0 +1,28 @@
+body{
+  /* background-color: black; */
+}
+.body{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  margin-top:auto;
+  margin-bottom: auto;
+  
+}
+h1{
+  text-align: center;
+  /* color:white; */
+}
+#act{
+  width:180px;
+  margin-left:auto;
+  margin-right:auto;
+}
+h2{
+  /* color:white; */
+}
+p{
+  /* color:white; */
+}
+input{}
