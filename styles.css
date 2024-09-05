@@ -1,18 +1,19 @@
 body{
-  /* background-color: black; */
+  background-color: #400080;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
 }
 .body{
   width:100%;
   height:100%;
   display:flex;
   flex-direction:column;
-  margin-top:auto;
-  margin-bottom: auto;
-  
+  text-align: center;
 }
 h1{
   text-align: center;
-  /* color:white; */
+  color:white;
 }
 #act{
   width:180px;
@@ -20,9 +21,30 @@ h1{
   margin-right:auto;
 }
 h2{
-  /* color:white; */
+  color:#400080;
 }
 p{
-  /* color:white; */
+  color:white;
 }
-input{}
+.latlong{
+  display:flex;
+  justify-content: space-around;
+  margin:20px;
+}
+input{
+  width:200px;
+  display:inline;
+  text-align: center;
+}
+iframe{
+  width:500px;
+  height:250px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottom{
+  background-color: white;
+  width:100%;
+  height:200px;
+}
